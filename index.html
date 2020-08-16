@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form class="col-md-6 m-auto pt-5 pb-3">
+      <div class="input-group mb-3">
+        <input type="text" id="input-city-name" class="form-control" placeholder="Enter a location for weather...">
+        <div class="input-group-append">
+          <button id="submit-button" type="button" class="btn btn-primary">Search</button>
+        </div>
+      </div>
+    </form>
+    <div class="weather-status text-white text-center ">
+      <h2 id="city-name"></h2>
+      <h1 class="deg" id="temperature"></h1>
+      <h2 class="py-2" id="feelsLike-temp"></h2>
+      <h2 class="py-2" id="weather-description"></h2>
+      <h2 class="py-2" id="humidity"></h2>
+      <h2 class="py-2" id="wind-speed"></h2>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
